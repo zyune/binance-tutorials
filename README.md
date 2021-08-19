@@ -1,7 +1,7 @@
 # binance-tutorials
 Real-Time Candlestick Charts and Crypto Trading Bot using Binance API and Websockets
 
-This source code is explained and demonstrated in my YouTube channel:
+This source code is explained and demonstrated in Larry's YouTube channel:
 
 https://youtube.com/parttimelarry
 
