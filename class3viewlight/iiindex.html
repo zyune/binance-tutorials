@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>coinview</title>
+        <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+    </head>
+    <body>
+            <h2>trade</h2>
+            <div id="chart"></div>
+            <div id="trades"></div>
+            <script>
+                var binanceSocket= new WebSocket("wss://stream.binance.com:9443/ws/btcusdt@trade");
+                var tradeDiv = document.getElementById('trades');
+                binanceSocket.onmessage=function (event){
+                    console.log(event.data);
+                }
+                binanceSocket.close();
+
+            </script>
+            <script src="./ccchart.js"></script>
+            <div id="settings">
+                <input type="checkbox" /> RSI 
+                <input type="text" id="rsi_length" name="rsi_length" placeholder="14" />
+                Overbought
+                <input type="text" id="rsi_overbought" name="rsi_overbought" placeholder="70" />
+                Oversold
+                <input type="text" id="rsi_oversold" name="rsi_oversold" placeholder="30" />
+    
+            </div>
+
+    </body>
+</html>
