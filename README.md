@@ -1,4 +1,6 @@
 # binance-tutorials
+This is a binance tutortial repository. I use pandas, RSI .
+
 Real-Time Candlestick Charts and Crypto Trading Bot using Binance API and Websockets
 
 This source code is explained and demonstrated in Larry's YouTube channel:
