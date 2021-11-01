@@ -1,5 +1,5 @@
 # binance-tutorials
-This is a binance tutortial repository. I use pandas, RSI .
+This is a binance tutortial repository. I use pandas, RSI . I use dogecoin instead of Bitcoin and Ethereum。
 
 Real-Time Candlestick Charts and Crypto Trading Bot using Binance API and Websockets
 
